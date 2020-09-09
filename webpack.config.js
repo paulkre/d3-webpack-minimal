@@ -33,6 +33,6 @@ module.exports = {
       },
     ],
   },
-  plugins: [new HtmlWebpackPlugin({ template: `${__dirname}/index.html` })],
+  plugins: [new HtmlWebpackPlugin({ title: "D3 Playground" })],
   stats: "errors-only",
 };

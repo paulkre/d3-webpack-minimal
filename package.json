@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "webpack-dev-server --config lib/webpack.config.js",
-    "build": "webpack --config lib/webpack.config.js"
+    "start": "webpack-dev-server",
+    "build": "webpack"
   },
   "keywords": [],
   "author": "Paul Kretschel <paul.kretschel@icloud.com> (https://paulkre.com)",
